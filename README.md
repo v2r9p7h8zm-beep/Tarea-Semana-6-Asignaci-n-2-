@@ -1,3 +1,5 @@
+LINK VIDEO:https://itlaedudo-my.sharepoint.com/:f:/g/personal/20240860_itla_edu_do/IgAUjOqm9WCwTJBLuWKlGQDuASiIoN0GlWkmD-Ii98zjBys?e=snysh0
+
 Práctica de Seguridad de Redes: AAA + RADIUS + Active Directory
 Estudiante: Jennifer Lopez
 Matrícula: 20240860
