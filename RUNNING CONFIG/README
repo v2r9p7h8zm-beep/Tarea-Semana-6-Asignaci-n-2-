@@ -1,1 +1,30 @@
 
+## R1 – RUNNING CONFIGURATION
+
+### Información del dispositivo
+- Equipo: Cisco 7200
+- Plataforma: GNS3
+- IOS: 15.2(4)S6
+- Interfaz LAN: FastEthernet0/0
+- Dirección IP: 192.168.10.1/24
+
+### Configuración aplicada
+- AAA habilitado mediante aaa new-model.
+- Servidor RADIUS configurado como NPS.
+- Grupo de servidores RADIUS: NPS-GROUP.
+- Autenticación AAA con respaldo local.
+- Autorización AAA configurada.
+- Usuarios locales con distintos niveles de privilegio.
+- SSH versión 2 habilitado.
+- Configuración de acceso a consola y puerto auxiliar.
+- Registro de eventos de autenticación y seguridad.
+- Controles contra intentos repetidos de inicio de sesión.
+
+### Comandos de verificación
+
+show running-config
+show ip interface brief
+show ip ssh
+show aaa servers
+show logging
+
